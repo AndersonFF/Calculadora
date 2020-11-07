@@ -1,0 +1,13 @@
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\bin\Debug\netcoreapp3.1\CalculadoraApi.exe
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.AssemblyInfoInputs.cache
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.AssemblyInfo.cs
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.csproj.CoreCompileInputs.cache
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.RazorTargetAssemblyInfo.cache
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\staticwebassets\CalculadoraApi.StaticWebAssets.Manifest.cache
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\staticwebassets\CalculadoraApi.StaticWebAssets.xml
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.dll
+D:\Desafio Threeo\CalculadoraApi\CalculadoraApi\obj\Debug\netcoreapp3.1\CalculadoraApi.pdb
