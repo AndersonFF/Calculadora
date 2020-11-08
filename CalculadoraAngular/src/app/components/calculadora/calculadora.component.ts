@@ -2,6 +2,7 @@ import { ApiService } from '../../services/api.service';
 import { Component, OnInit } from '@angular/core';
 import { Request } from '../../models/request.model';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { CodigoOperacao } from 'src/app/models/codigooperacao.enum';
 
 
 
@@ -41,6 +42,7 @@ export class CalculadoraComponent implements OnInit{
   }
 
   public calcularSoma(): void {
+    this.request.Operador = CodigoOperacao.Soma;
     this._apiService.calcularSoma(this.request)
       .subscribe(response => {
         this.resultado = response;
@@ -52,6 +54,7 @@ export class CalculadoraComponent implements OnInit{
   }
 
   public calcularSubtracao(): void {
+    this.request.Operador = CodigoOperacao.Subtracao;
     this._apiService.calcularSubtracao(this.request)
       .subscribe(response => {
         this.resultado = response;
@@ -63,6 +66,7 @@ export class CalculadoraComponent implements OnInit{
   }
   
   public calcularMultiplicacao(): void {
+    this.request.Operador = CodigoOperacao.Multiplicacao;
     this._apiService.calcularMultiplicacao(this.request)
       .subscribe(response => {
         this.resultado = response;
@@ -74,6 +78,7 @@ export class CalculadoraComponent implements OnInit{
   }
   
   public calcularDivisao(): void {
+    this.request.Operador = CodigoOperacao.Divisao;
     this._apiService.calcularDivisao(this.request)
       .subscribe(response => {
         this.resultado = response;

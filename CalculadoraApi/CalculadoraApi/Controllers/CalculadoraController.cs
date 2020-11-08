@@ -13,10 +13,11 @@ namespace CalculadoraApi.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [EnableCors("AllowMyOrigin")]
     public class CalculadoraController : ControllerBase
     {
-         private readonly IEnumerable<ICalculadoraService> _calculadoraServices;
-        
+        private readonly IEnumerable<ICalculadoraService> _calculadoraServices;
+
         public CalculadoraController(IEnumerable<ICalculadoraService> calculadoraServices)
         {
             _calculadoraServices = calculadoraServices;
@@ -28,13 +29,9 @@ namespace CalculadoraApi.Controllers
         /// <param name="Calcular Todos"></param>
         /// <returns></returns>
         [HttpPost]
-        [EnableCors("AllowMyOrigin")]
         public ActionResult Calcular([FromBody] Calculadora request)
         {
-            var service = _calculadoraServices.FirstOrDefault(c=> c.CodigoOperador == request.Operador);
-            var response = service.Executar(request);
-
-            return Ok(response);
+            return Ok(Executar(request));
         }
 
         #region Métodos de operações Matemáticas 
@@ -48,16 +45,11 @@ namespace CalculadoraApi.Controllers
                 return NotFound("Operador inválido ou inexistente.");
             }
 
-            var service = _calculadoraServices.FirstOrDefault(c => c.CodigoOperador == request.Operador);
-
-            var response = service.Executar(request);
-
-            return Ok(response);
+            return Ok(Executar(request));
         }
 
         [HttpPost]
         [Route("multiplicar")]
-        [EnableCors("AllowMyOrigin")]
         public ActionResult Multiplicar([FromBody] Calculadora request)
         {
             if (request.Operador != Operacao.Multiplicacao)
@@ -65,16 +57,11 @@ namespace CalculadoraApi.Controllers
                 return NotFound("Operador inválido ou inexistente.");
             }
 
-            var service = _calculadoraServices.FirstOrDefault(c => c.CodigoOperador == request.Operador);
-
-            var response = service.Executar(request);
-
-            return Ok(response);
+            return Ok(Executar(request));
         }
 
         [HttpPost]
         [Route("subtrair")]
-        [EnableCors("AllowMyOrigin")]
         public ActionResult Subtrair([FromBody] Calculadora request)
         {
             if (request.Operador != Operacao.Subtracao)
@@ -82,16 +69,11 @@ namespace CalculadoraApi.Controllers
                 return NotFound("Operador inválido ou inexistente.");
             }
 
-            var service = _calculadoraServices.FirstOrDefault(c => c.CodigoOperador == request.Operador);
-
-            var response = service.Executar(request);
-
-            return Ok(response);
+            return Ok(Executar(request));
         }
 
         [HttpPost]
         [Route("dividir")]
-        [EnableCors("AllowMyOrigin")]
         public ActionResult Dividir([FromBody] Calculadora request)
         {
             if (request.Operador != Operacao.Divisao)
@@ -99,11 +81,14 @@ namespace CalculadoraApi.Controllers
                 return NotFound("Operador inválido ou inexistente.");
             }
 
+            return Ok(Executar(request));
+        }
+
+        private decimal Executar(Calculadora request)
+        {
             var service = _calculadoraServices.FirstOrDefault(c => c.CodigoOperador == request.Operador);
 
-            var response = service.Executar(request);
-
-            return Ok(response);
+            return service.Executar(request);
         }
         #endregion
 

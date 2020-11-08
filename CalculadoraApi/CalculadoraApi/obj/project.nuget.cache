@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qf3JbHrptqEWUS/BJzUSJkDIskMwMMSa/NBwWtGL6LcWbik+pFv7vDmZTTd6pGKEHm11Zm2GJypMDz8XA2194g==",
+  "dgSpecHash": "B25K4o2jGNIYttvfOfLcwqysesZhtOJOMXdWmlaD3U33YCqz6NtNRFGeJGI3WG40+kS9v97dvWO4dOaUdDSUXw==",
   "success": true,
-  "projectFilePath": "D:\\Desafio Threeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj",
+  "projectFilePath": "D:\\Meus Projetos Estudos\\CalculadoraGit\\CalculadoraThreeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anderson F Freitas\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],

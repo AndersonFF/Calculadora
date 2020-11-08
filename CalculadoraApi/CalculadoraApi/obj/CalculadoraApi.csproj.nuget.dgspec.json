@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desafio Threeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj": {}
+    "D:\\Meus Projetos Estudos\\CalculadoraGit\\CalculadoraThreeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj": {}
   },
   "projects": {
-    "D:\\Desafio Threeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj": {
+    "D:\\Meus Projetos Estudos\\CalculadoraGit\\CalculadoraThreeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desafio Threeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj",
+        "projectUniqueName": "D:\\Meus Projetos Estudos\\CalculadoraGit\\CalculadoraThreeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj",
         "projectName": "CalculadoraApi",
-        "projectPath": "D:\\Desafio Threeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj",
+        "projectPath": "D:\\Meus Projetos Estudos\\CalculadoraGit\\CalculadoraThreeo\\CalculadoraApi\\CalculadoraApi\\CalculadoraApi.csproj",
         "packagesPath": "C:\\Users\\Anderson F Freitas\\.nuget\\packages\\",
-        "outputPath": "D:\\Desafio Threeo\\CalculadoraApi\\CalculadoraApi\\obj\\",
+        "outputPath": "D:\\Meus Projetos Estudos\\CalculadoraGit\\CalculadoraThreeo\\CalculadoraApi\\CalculadoraApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

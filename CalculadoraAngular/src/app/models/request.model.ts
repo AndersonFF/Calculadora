@@ -1,6 +1,5 @@
 export class Request {
-    public numero1: number;
-    public numero2: number;
-    public operacao: number;
-  }
-  
+  public Valor1: number;
+  public Valor2: number;
+  public Operador: number;
+}
