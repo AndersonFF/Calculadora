@@ -13,3 +13,4 @@ Criação de Api Net Core / FrontEnd Angular
  
    - Possui dois que recebem o valor digitado e os boões para execução das operações de acordo com a operação desejada.
  
+![Screenshot](CalculadoraTh.PNG)
